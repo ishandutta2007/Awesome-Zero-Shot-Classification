@@ -1,11 +1,25 @@
-# Awesome-Zero-Shot-Classification
-## Zero-Shot Classification: Evolution, Variants, Types, & Applications
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Zero-Shot Classification Banner" width="100%" />
+
+  # 🚀 Awesome-Zero-Shot-Classification
+
+  <p><strong>A curated repository tracking the evolution, variants, testing paradigms, production engineering mitigations, and frontier real-world applications of Zero-Shot Classification.</strong></p>
+
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Zero-Shot-Classification/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Zero-Shot-Classification?style=flat-square&logo=github" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Zero-Shot-Classification/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Zero-Shot-Classification?style=flat-square" alt="Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Zero-Shot-Classification/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Zero-Shot-Classification?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</div>
+
+<!--
+SEO Meta Description: Comprehensive Awesome list and developer guide to Zero-Shot Classification (ZSC) and Zero-Shot Learning (ZSL). Tracks chronological evolution, NLI-based classifiers, Dual-Tower multi-modal embedding architectures (CLIP, SigLIP), generalized testing paradigms (GZSC), and industrial manufacturing anomaly detection pipelines.
+Keywords: zero-shot classification, zero-shot learning, NLI entailment, dual-tower embedding, CLIP, WinCLIP, Generalized Zero-Shot Learning, GZSC, prompt ensembling, hierarchical routing, industrial anomaly detection.
+-->
+
+## 🧠 Zero-Shot Classification: Evolution, Variants, Types, & Applications
 
 Zero-Shot Classification (ZSC) is a specialized application of machine learning that allows a model to accurately categorize a given input (text, image, or audio) into a set of label classes it has never explicitly seen or been trained on. Traditional classification architectures freeze their output layers to map to a static number of classes (e.g., a fixed index of 10 customer service intents). ZSC reframes classification as a semantic alignment problem. By projecting both the input data and arbitrary natural language labels into a shared embedding or logical space, the model dynamically measures which label fits best, allowing developers to update, change, or expand classification taxonomies instantly at runtime without retraining the model.
 
 ---
 
-## 1. The Chronological Evolution
+## ⏳ 1. The Chronological Evolution
 
 The technical progression of zero-shot classification has transitioned from rigid attribute mapping over small image vectors to text-based entailment loops and massive unified multimodal foundation systems.
 
@@ -24,7 +38,7 @@ flowchart LR
 
 ---
 
-## 2. Core Technical & Architectural Variants
+## ⚙️ 2. Core Technical & Architectural Variants
 
 Depending on the underlying model family and data modality, Zero-Shot Classification is executed via distinct mathematical and algorithmic frameworks.
 
@@ -36,7 +50,7 @@ Depending on the underlying model family and data modality, Zero-Shot Classifica
 
 ---
 
-## 3. Generalized vs. Conventional ZSC Testing Paradigms
+## 🧪 3. Generalized vs. Conventional ZSC Testing Paradigms
 
 When deploying a zero-shot classification matrix into live production environments, the systemic configuration of the evaluation space alters model accuracy.
 
@@ -47,7 +61,7 @@ When deploying a zero-shot classification matrix into live production environmen
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## 🛠️ 4. Production Engineering Challenges & Mitigations
 
 While Zero-Shot Classification saves thousands of dollars in dataset labeling costs, scaling it to high-throughput commercial pipelines introduces unique optimization trade-offs.
 
@@ -58,7 +72,7 @@ While Zero-Shot Classification saves thousands of dollars in dataset labeling co
 
 ---
 
-## 5. Frontier Real-World Applications
+## 🔮 5. Frontier Real-World Applications
 
 | Application | Use Case Detail | Year | First-Used Paper |
 | :--- | :--- | :---: | :--- |
