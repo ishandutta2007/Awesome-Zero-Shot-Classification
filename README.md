@@ -10,7 +10,10 @@ Zero-Shot Classification (ZSC) is a specialized application of machine learning 
 The technical progression of zero-shot classification has transitioned from rigid attribute mapping over small image vectors to text-based entailment loops and massive unified multimodal foundation systems.
 
 ```mermaid
-[Attribute Mapping (2009-2018)] ----> [NLI Text Entailment (Yin et al., 2019)] ----> [Dual-Tower Contrastive VLMs (CLIP, 2021+)](Manual Feature Vectors)               (Premise-Hypothesis Logic Gates)                (Infinite Open-Vocabulary Matrix Matching)
+flowchart LR
+    A["Attribute Mapping (2009-2018)<br/>(Manual Feature Vectors)"]
+    --> B["NLI Text Entailment (Yin et al., 2019)<br/>(Premise-Hypothesis Logic Gates)"]
+    --> C["Dual-Tower Contrastive VLMs (CLIP, 2021+)<br/>(Infinite Open-Vocabulary Matrix Matching)"]
 ```
 
 *   **The Attribute-Mapping Era (Lampert et al., 2009)**
