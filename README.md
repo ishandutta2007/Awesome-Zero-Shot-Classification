@@ -80,3 +80,18 @@ While Zero-Shot Classification saves thousands of dollars in dataset labeling co
 | [**Enterprise Document Sorting & Customer Intent Routing**](details/document-sorting-intent-routing.md) | Powers high-volume automated corporate ticketing hubs. Inbound emails or support queries are scanned via NLI-based zero-shot pipelines to instantly classify customer intent (e.g., `Billing Issue`, `Account Cancellation Request`), forwarding the ticket to specialized departments with zero manual intervention. | 2019 | [Benchmarking Zero-shot Text Classification: Datasets, Evaluation and Entailment Approach](https://aclanthology.org/D19-1404/) |
 | [**Zero-Shot Defect & Anomaly Screening in Manufacturing**](details/defect-anomaly-screening.md) | Computer vision arrays monitors assembly lines. Because collecting samples of ultra-rare hardware defects is practically impossible, zero-shot visual grounding engines are prompt-instructed to actively watch for raw descriptions of structural failure states (such as `"hairline surface fracture"` or `"misaligned rivet joint"`), alerting engineers instantly. | 2023 | [WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://openaccess.thecvf.com/content/CVPR2023/html/Jeong_WinCLIP_Zero-_Few-Shot_Anomaly_Classification_and_Segmentation_CVPR_2023_paper.html) |
 
+---
+
+## 📈 Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Zero-Shot-Classification&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Zero-Shot-Classification&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Zero-Shot-Classification&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Zero-Shot-Classification&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
+
